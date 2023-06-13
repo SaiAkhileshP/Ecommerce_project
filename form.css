@@ -1,0 +1,83 @@
+.body{
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	background-color: #004aad;
+	
+}
+.header img{
+	margin-left: 43%;
+}
+.logo{
+	border-radius: 15px;
+}
+.box{
+	width: 300px;
+	height: 400px;
+	transform: translate(200%,10%);
+	border-radius: 20px;
+	background-color: white;
+	border-style: solid;
+	box-shadow: 5px 5px 10px black; 
+	
+	
+}
+.box>img{
+
+	height: 50px;
+	width: 50px;
+	position: absolute;
+	top:-5%;
+	left: 42%;
+	border-radius: 50px;
+	border-style:solid; 
+}
+.content{
+	position: absolute;
+	top: 40px;
+	left:60px;
+	padding-top:20px; 
+}
+.login>input{
+	border-style:none;
+	border-bottom-style:solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	outline: none;
+}
+.login>h3{
+	margin-left: 50px;
+	color:blue;
+	font-family:sans-serif;
+}
+.login>b{
+	font-family:sans-serif;
+
+}
+#status{
+	position: absolute;
+	transform: translate(0%,0px);
+	color: red;
+}
+.btn{
+	padding:8px 50px;
+	margin-top: 58px ;
+	left:20px;
+	background-color:#004badcf;
+	color: white;
+	border-radius:20px;
+	cursor: pointer;
+}
+.btn:hover{
+	background-color: #004aad;
+}
+p{
+	margin-right: 20px;
+}
+.login>p>a{
+	text-decoration:none;
+	color:blue;
+}
+.login>p>a:hover{
+	color:red;
+}

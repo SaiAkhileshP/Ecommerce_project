@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign up page</title>
+	<link rel="stylesheet" type="text/css" href="signup.css">
+	<script type="text/javascript" src="form.js"></script>
+</head>
+<body>
+<div class="header">
+    <img src="./mana bazar logo.png" alt="" height="200px" width="200px" class="logo" >
+</div>
+<fieldset>
+	<legend><img src="assert/greenlogin.png"></legend>
+        <form class="login" name="myForm" action="./signupblank.html" method="post">
+            <h3>SIGN UP</h3>
+        
+            <label>First Name</label><br>
+            <input type="text" name="name" value="" required="text" placeholder="Ex : jack" id="name"><br>
+            <label>Last Name</label><br>
+            <input type="text" name="name" value="" required="text" placeholder="Ex : Allen" id="name"><br>
+
+            <label>Email</label><br>
+            <input type="email" name="email" value="" required="Email" placeholder="Enter email" id="name"><br>
+          
+            <label>Date of birth</label><br>
+            <input type="date" name="date" value="" required="number" placeholder="Date of birth" id="name"><br>
+            <select>
+                <option value="">Gender</option>
+                <option value="">Male</option>
+                <option value="">Female</option>
+                <option value="">Others</option>
+            </select><br><br>
+        
+                <label>Create password</label><br>
+            <input type="password" name="pass" value="" required="password" placeholder="Enter password" id="password"><br>
+            <label>Re enter password</label><br>
+            <input type="password" name="pass" value="" required="password" placeholder="Re Enter password" id="password"><br>
+            
+            <button class="btn" type="submit">Create Account</button>
+            <button type="reset" class="rbtn">Reset</button>
+            <p>if you have alredy account?<a href="./form.html"> Login</a></p>
+        </form>
+</fieldset>
+</body>
+</html>
